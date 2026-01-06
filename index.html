@@ -11,6 +11,8 @@
     <style>
         body { font-family: 'Roboto', sans-serif; }
         h1, h2, h3, h4, .font-heading { font-family: 'Montserrat', sans-serif; }
+        /* Prevent Flash of Unstyled Content */
+        #root:empty { background-color: #1a1c23; min-height: 100vh; }
     </style>
 <script type="importmap">
 {
@@ -25,5 +27,7 @@
 </head>
 <body class="bg-white text-gray-800">
     <div id="root"></div>
+    <!-- The type="module" is critical for the importmap and ESM imports to work -->
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>

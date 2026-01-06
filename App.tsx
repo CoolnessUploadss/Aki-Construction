@@ -30,6 +30,7 @@ const Header = () => {
   useEffect(() => {
     setIsMenuOpen(false);
     setIsServicesOpen(false);
+    window.scrollTo(0, 0);
   }, [location]);
 
   return (
@@ -165,6 +166,7 @@ const App: React.FC = () => (
           <Route path="/services/maintenance" element={<ServiceMaintenance />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
       <Footer />
