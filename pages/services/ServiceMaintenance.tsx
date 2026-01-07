@@ -4,66 +4,144 @@ import React from 'react';
 const ServiceMaintenance: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
-      <section className="bg-[#1a1c23] py-24 text-center border-b-4 border-[#ff6b35]">
+      {/* 1. Service Overview */}
+      <section className="bg-[#1a1c23] py-20 text-center">
         <div className="container mx-auto px-4">
-          <h4 className="text-[#ff6b35] font-heading font-black uppercase tracking-[0.4em] text-xs mb-4">Preventative Audit</h4>
-          <h1 className="text-white font-heading font-extrabold text-4xl md:text-7xl uppercase tracking-tighter mb-4">
-            INTEGRITY <span className="text-[#ff6b35]">MAINTENANCE</span>
+          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8">
+            Maintenance <span className="text-[#ff6b35]">Check</span>
           </h1>
-          <p className="text-gray-400 uppercase text-[10px] tracking-[0.3em] font-black">Pre-Storm Structural Security</p>
+          <div className="max-w-3xl mx-auto space-y-6 text-gray-400 text-lg leading-relaxed">
+            <p>
+              The Integrity Maintenance Check is a preventative service that involves a comprehensive structural audit of your entire roofing system. This service is for homeowners who want to ensure their roof remains in peak condition and catch minor wear and tear before it becomes a major expense.
+            </p>
+            <p>
+              It is needed at least once a year, preferably before the heavy rain season begins in Malamulele. Regular checks ensure that fasteners are tight, sealants are intact, and your drainage systems are clear, preventing silent issues from compromising the structural security of your home.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="py-24">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
-            <div className="flex justify-center sticky top-28">
-              <div className="w-80 h-80 bg-gray-50 border-2 border-dashed border-[#ff6b35]/20 rounded-full flex items-center justify-center relative">
-                <i className="fa-solid fa-shield-check text-[#1a1c23] text-9xl"></i>
-                <div className="absolute -top-6 -right-6 bg-[#1a1c23] text-white p-6 rounded-3xl shadow-2xl font-heading font-black uppercase text-xs tracking-widest">
-                  Storm Ready
-                </div>
+      {/* 2. What This Service Includes */}
+      <section className="py-20 border-b border-gray-100">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">What This <span className="text-[#ff6b35]">Service Includes</span></h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> 50-point structural integrity inspection</li>
+              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Cleaning and clearing of gutters and valleys</li>
+              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Checking and tightening of roof fasteners</li>
+            </ul>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Audit of all flashing and structural seals</li>
+              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Detailed status report of current roof health</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Common Problems This Service Solves */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">Common Problems <span className="text-[#ff6b35]">This Service Solves</span></h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Blocked Drainage</h4>
+              <p className="text-gray-500 text-sm">We clear the leaves and debris that cause gutters to overflow and flood your foundation.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Loose Fasteners</h4>
+              <p className="text-gray-500 text-sm">We solve the problem of roof sheets rattling or lifting during high winds due to loose screws.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Silent Deterioration</h4>
+              <p className="text-gray-500 text-sm">We catch the small cracks in sealants that you can't see but eventually lead to major leaks.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Rust Spots</h4>
+              <p className="text-gray-500 text-sm">By catching early oxidation, we prevent widespread corrosion that requires full replacement.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Our Work Process */}
+      <section className="py-20">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-12 text-center">Our <span className="text-[#ff6b35]">Work Process</span></h2>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="text-center">
+              <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
+              <h4 className="font-bold uppercase text-xs mb-2">Walkthrough</h4>
+              <p className="text-gray-500 text-[11px]">Visual and structural assessment of the roof.</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
+              <h4 className="font-bold uppercase text-xs mb-2">Cleanup</h4>
+              <p className="text-gray-500 text-[11px]">Clearing of all valleys, gutters, and drains.</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
+              <h4 className="font-bold uppercase text-xs mb-2">Tightening</h4>
+              <p className="text-gray-500 text-[11px]">Securing all fasteners and structural caps.</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
+              <h4 className="font-bold uppercase text-xs mb-2">Reporting</h4>
+              <p className="text-gray-500 text-[11px]">Providing a full health report for your records.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Why Choose Aki Construction (IDENTICAL) */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10">Why Choose <span className="text-[#ff6b35]">Aki Construction</span></h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+            <div className="flex gap-4">
+              <i className="fa-solid fa-check-double text-[#ff6b35] text-xl"></i>
+              <div>
+                <h4 className="font-bold uppercase text-sm mb-1 text-[#1a1c23]">Experienced local roofing specialists</h4>
+                <p className="text-gray-500 text-xs">Deep knowledge of Limpopo construction standards and local climate challenges.</p>
               </div>
             </div>
-            <div className="space-y-12">
-              <div className="prose prose-lg text-gray-600">
-                <h3 className="font-heading font-black text-[#1a1c23] text-3xl uppercase tracking-tighter mb-6">The 50-Point Structural Audit</h3>
-                <p className="mb-6 leading-relaxed">
-                  Most homeowners only think about their roof when there's a puddle in the kitchen. By that point, the damage is already structural. Our Integrity Maintenance service is a proactive "health check" for your home. We perform a comprehensive 50-point audit that covers every joint, every fastener, and every flashing detail. We identify the micro-stresses that, if left alone, will lead to catastrophic failure during the next heavy storm.
-                </p>
-                <p className="mb-6 leading-relaxed">
-                  We look for "silent killers" like rusted fasteners, blocked valleys, and shifted timber trusses. These are issues that you cannot see from the ground but are easily fixed by our professionals if caught early. This service isn't just an inspection—it's an investment that can save you hundreds of thousands in emergency rebuild costs.
-                </p>
-                <h3 className="font-heading font-black text-[#1a1c23] text-3xl uppercase tracking-tighter mb-6">Cleaning & Fortification</h3>
-                <p className="mb-6 leading-relaxed">
-                  Our maintenance goes beyond inspection. We clear all debris from gutters and drainage paths, re-seat loose tiles, and apply industrial-grade sealants to any joints showing signs of fatigue. We also check the integrity of your ceiling supports and look for signs of pest ingress. 
-                </p>
-                <p className="mb-6 leading-relaxed font-bold text-[#1a1c23]">
-                  A roof that is properly maintained by Aki Construction can last up to 40% longer than a neglected one. Secure your investment today.
-                </p>
+            <div className="flex gap-4">
+              <i className="fa-solid fa-check-double text-[#ff6b35] text-xl"></i>
+              <div>
+                <h4 className="font-bold uppercase text-sm mb-1 text-[#1a1c23]">Quality workmanship and durable materials</h4>
+                <p className="text-gray-500 text-xs">We use only SABS-approved materials and precision engineering techniques.</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <i className="fa-solid fa-check-double text-[#ff6b35] text-xl"></i>
+              <div>
+                <h4 className="font-bold uppercase text-sm mb-1 text-[#1a1c23]">Honest pricing with no hidden costs</h4>
+                <p className="text-gray-500 text-xs">Our quotes are comprehensive and transparent, ensuring no surprises during the build.</p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <i className="fa-solid fa-check-double text-[#ff6b35] text-xl"></i>
+              <div>
+                <h4 className="font-bold uppercase text-sm mb-1 text-[#1a1c23]">Reliable service and clear communication</h4>
+                <p className="text-gray-500 text-xs">We keep you informed at every stage of the project and respect all timelines.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Unified Final CTA */}
-      <section className="py-20 bg-[#1a1c23] text-center border-t border-gray-800">
+      {/* 6. Call to Action (IDENTICAL) */}
+      <section className="py-24 text-center bg-[#1a1c23]">
         <div className="container mx-auto px-4">
-          <h2 className="text-white font-heading font-extrabold text-3xl md:text-5xl uppercase mb-8">SUBMIT YOUR HOME TO THE <br /><span className="text-[#ff6b35]">ROOFING EXPERTS</span></h2>
-          <p className="text-gray-400 max-w-2xl mx-auto mb-12">Contact us directly or message us on WhatsApp to start your next roofing project with Malamulele's finest construction experts.</p>
+          <h2 className="text-white font-heading font-extrabold text-3xl uppercase mb-6">Need professional roofing services you can trust?</h2>
+          <p className="text-gray-400 mb-10 max-w-2xl mx-auto">Contact Aki Construction today for a free quote or expert advice.</p>
           <div className="flex flex-wrap justify-center gap-6">
-             <a href="tel:0815692291" className="bg-[#ff6b35] text-white px-12 py-5 rounded-full font-heading font-black uppercase tracking-widest flex items-center gap-3 hover:bg-white hover:text-[#ff6b35] transition-all">
-                <i className="fa-solid fa-phone"></i> CALL +27 81 569 2291
-             </a>
-             <a 
-               href="https://wa.me/27815692291" 
-               target="_blank" 
-               rel="noopener noreferrer" 
-               className="bg-[#25D366] text-white px-12 py-5 rounded-full font-heading font-black uppercase tracking-widest flex items-center gap-3 hover:bg-[#128c7e] transition-all shadow-xl"
-             >
-                <i className="fa-brands fa-whatsapp"></i> MESSAGE ON WHATSAPP
-             </a>
+            <a href="tel:0815692291" className="bg-[#ff6b35] text-white px-10 py-4 rounded-full font-heading font-black uppercase tracking-widest flex items-center gap-3 hover:bg-white hover:text-[#ff6b35] transition-all">
+              <i className="fa-solid fa-phone"></i> Call Now
+            </a>
+            <a href="https://wa.me/27815692291" className="bg-[#25D366] text-white px-10 py-4 rounded-full font-heading font-black uppercase tracking-widest flex items-center gap-3 hover:scale-105 transition-all">
+              <i className="fa-brands fa-whatsapp"></i> WhatsApp Us
+            </a>
           </div>
         </div>
       </section>
