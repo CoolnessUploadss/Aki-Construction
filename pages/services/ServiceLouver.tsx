@@ -7,15 +7,15 @@ const ServiceLouver: React.FC = () => {
       {/* 1. Service Overview */}
       <section className="bg-[#1a1c23] py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8">
+          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8 leading-none">
             Louver <span className="text-[#ff6b35]">Installation</span>
           </h1>
           <div className="max-w-3xl mx-auto space-y-6 text-gray-400 text-lg leading-relaxed">
             <p>
-              Louver installation is a critical airflow service that involves integrating specialized ventilation slats into your roof structure. This service is for homeowners who want to regulate the internal temperature of their home naturally and protect their roof's structural timber from condensation.
+              Louver installation is a critical ventilation service involving placing specialized vents in your roof structure to improve airflow. This service is for homeowners who want to regulate house temperature naturally.
             </p>
             <p>
-              It is needed when an attic space becomes excessively hot or when moisture begins to accumulate in the roof space. Proper ventilation through custom-fit louvers ensures that fresh air circulates effectively, reducing the load on your cooling systems and preventing timber rot over time.
+              In the Limpopo heat, roof spaces can reach dangerous temperatures. Proper ventilation ensures your home stays cool and your structural timber remains dry and strong for decades. It is needed when attics become stuffy or moisture builds up.
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ const ServiceLouver: React.FC = () => {
       <section className="py-20 border-b border-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">What This <span className="text-[#ff6b35]">Service Includes</span></h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Custom structural louver design and sizing</li>
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Selection of weather-resistant ventilation blades</li>
@@ -45,20 +45,12 @@ const ServiceLouver: React.FC = () => {
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">Common Problems <span className="text-[#ff6b35]">This Service Solves</span></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Excessive Attic Heat</h4>
-              <p className="text-gray-500 text-sm">We solve the problem of trapped hot air that makes your entire home feel uncomfortably warm.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Stuffy Attics</h4>
+              <p className="text-gray-500 text-sm">We solve heat trap issues that make upper rooms uncomfortably hot.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Timber Decay</h4>
-              <p className="text-gray-500 text-sm">Our louvers prevent the moisture buildup that leads to the rotting of critical roof trusses.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">High Cooling Costs</h4>
-              <p className="text-gray-500 text-sm">By cooling the roof space naturally, we solve the issue of high electricity bills from over-used AC.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Stale Air Pockets</h4>
-              <p className="text-gray-500 text-sm">We ensure constant fresh air exchange to solve the problem of musty smells in the upper house.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">High Cooling Costs</h4>
+              <p className="text-gray-500 text-sm">By cooling the roof naturally, we solve the issue of high AC electricity bills.</p>
             </div>
           </div>
         </div>
@@ -71,29 +63,29 @@ const ServiceLouver: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Evaluation</h4>
-              <p className="text-gray-500 text-[11px]">We identify the best locations for ventilation.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Audit</h4>
+              <p className="text-gray-500 text-[11px]">Identifying heat trap zones.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Placement</h4>
-              <p className="text-gray-500 text-[11px]">Marking and preparing the structural site.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Design</h4>
+              <p className="text-gray-500 text-[11px]">Selecting the right vent size.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Installation</h4>
-              <p className="text-gray-500 text-[11px]">Securely fitting the louver and mesh system.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Install</h4>
+              <p className="text-gray-500 text-[11px]">Secure fitting and mesh placement.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Sealing</h4>
-              <p className="text-gray-500 text-[11px]">Ensuring a 100% waterproof edge finish.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Seal</h4>
+              <p className="text-gray-500 text-[11px]">Final waterproofing finish.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5. Why Choose Aki Construction (IDENTICAL) */}
+      {/* 5. Why Choose Aki Construction */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10">Why Choose <span className="text-[#ff6b35]">Aki Construction</span></h2>
@@ -130,7 +122,7 @@ const ServiceLouver: React.FC = () => {
         </div>
       </section>
 
-      {/* 6. Call to Action (IDENTICAL) */}
+      {/* 6. Call to Action */}
       <section className="py-24 text-center bg-[#1a1c23]">
         <div className="container mx-auto px-4">
           <h2 className="text-white font-heading font-extrabold text-3xl uppercase mb-6">Need professional roofing services you can trust?</h2>

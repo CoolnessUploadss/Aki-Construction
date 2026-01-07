@@ -7,15 +7,15 @@ const ServicePainting: React.FC = () => {
       {/* 1. Service Overview */}
       <section className="bg-[#1a1c23] py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8">
+          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8 leading-none">
             Roof Tile <span className="text-[#ff6b35]">Painting</span>
           </h1>
           <div className="max-w-3xl mx-auto space-y-6 text-gray-400 text-lg leading-relaxed">
             <p>
-              Our professional roof tile painting service is a comprehensive restoration process designed to protect and beautify your property. This service involves deep cleaning, surface preparation, and the application of UV-resistant acrylic coatings. It is for homeowners with aging or faded roofs who want a brand-new look without the high cost of replacement.
+              Our roof tile painting service is a restoration procedure involving cleaning and coating your tiles with UV-resistant acrylic paint. This is for homeowners with faded or aging roofs wanting a brand-new look.
             </p>
             <p>
-              It is needed when tiles become porous and start absorbing moisture, which increases the structural weight of the roof. A fresh coat of specialized paint seals the tile surface, making it waterproof and reflective, which also helps to lower the internal temperature of your home in the Limpopo sun.
+              It is needed when tiles become porous and start absorbing moisture, increasing structural strain. Professional coatings create a waterproof shield that upgrades curb appeal and protects against the harsh sun.
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ const ServicePainting: React.FC = () => {
       <section className="py-20 border-b border-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">What This <span className="text-[#ff6b35]">Service Includes</span></h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> High-pressure industrial roof cleaning</li>
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Minor tile repairs and capping reinforcement</li>
@@ -45,20 +45,12 @@ const ServicePainting: React.FC = () => {
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">Common Problems <span className="text-[#ff6b35]">This Service Solves</span></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Faded Aesthetics</h4>
-              <p className="text-gray-500 text-sm">We restore the vibrant color of your roof, solving the problem of a tired and old-looking property.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Faded Tiles</h4>
+              <p className="text-gray-500 text-sm">We restore color to solve the problem of a tired looking property.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Porous Tiles</h4>
-              <p className="text-gray-500 text-sm">Our coatings solve the issue of tiles soaking up rainwater and becoming dangerously heavy.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Moss and Algae</h4>
-              <p className="text-gray-500 text-sm">We eliminate the dirt and organisms that trap moisture and lead to premature tile failure.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">UV Damage</h4>
-              <p className="text-gray-500 text-sm">Our specialized paint solves the problem of brittle tiles caused by constant sun exposure.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Porous Surface</h4>
+              <p className="text-gray-500 text-sm">Our paint solves moisture absorption issues that make tiles heavy and brittle.</p>
             </div>
           </div>
         </div>
@@ -72,28 +64,28 @@ const ServicePainting: React.FC = () => {
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
               <h4 className="font-bold uppercase text-xs mb-2">Wash</h4>
-              <p className="text-gray-500 text-[11px]">High-pressure removal of dirt and debris.</p>
+              <p className="text-gray-500 text-[11px]">High-pressure grime removal.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
               <h4 className="font-bold uppercase text-xs mb-2">Repair</h4>
-              <p className="text-gray-500 text-[11px]">Replacing broken tiles and fixing cracks.</p>
+              <p className="text-gray-500 text-[11px]">Fixing broken tiles/caps.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Coat</h4>
-              <p className="text-gray-500 text-[11px]">Applying primer and specialized paint layers.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Prime</h4>
+              <p className="text-gray-500 text-[11px]">Applying bonding layer.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Finish</h4>
-              <p className="text-gray-500 text-[11px]">Final inspection for even coverage and shine.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Paint</h4>
+              <p className="text-gray-500 text-[11px]">Double coat application.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5. Why Choose Aki Construction (IDENTICAL) */}
+      {/* 5. Why Choose Aki Construction */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10">Why Choose <span className="text-[#ff6b35]">Aki Construction</span></h2>
@@ -130,7 +122,7 @@ const ServicePainting: React.FC = () => {
         </div>
       </section>
 
-      {/* 6. Call to Action (IDENTICAL) */}
+      {/* 6. Call to Action */}
       <section className="py-24 text-center bg-[#1a1c23]">
         <div className="container mx-auto px-4">
           <h2 className="text-white font-heading font-extrabold text-3xl uppercase mb-6">Need professional roofing services you can trust?</h2>

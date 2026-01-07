@@ -7,15 +7,15 @@ const ServiceDesign: React.FC = () => {
       {/* 1. Service Overview */}
       <section className="bg-[#1a1c23] py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8">
+          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8 leading-none">
             Design & <span className="text-[#ff6b35]">Installation</span>
           </h1>
           <div className="max-w-3xl mx-auto space-y-6 text-gray-400 text-lg leading-relaxed">
             <p>
-              Our Design and Installation service is the foundation of any high-end property in Malamulele. We specialize in creating custom structural roof blueprints that prioritize both architectural beauty and long-term durability. This service is for homeowners building new residences or undertaking major structural renovations who require a roof that complements their home's modern design.
+              Our Design and Installation service is the blueprint for a perfect home. We specialize in creating high-end, contemporary roof structures that combine architectural beauty with maximum structural integrity. From the first truss to the final sheet, we manage the entire process with precision.
             </p>
             <p>
-              It is needed from the earliest stages of construction to ensure that the truss layout and material selection are perfectly aligned with the building's engineering requirements. A professionally designed roof provides the necessary protection and ventilation for a lifetime of security.
+              This service is for homeowners building new residences or undertaking major renovations. It is needed from the earliest stages of construction to ensure that the truss layout and material selection are perfectly aligned with the building's engineering requirements.
             </p>
           </div>
         </div>
@@ -25,14 +25,14 @@ const ServiceDesign: React.FC = () => {
       <section className="py-20 border-b border-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">What This <span className="text-[#ff6b35]">Service Includes</span></h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Custom structural roof design and planning</li>
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Engineering of truss layouts for maximum strength</li>
-              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Selection and supply of premium roofing materials</li>
+              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Professional installation of SABS-approved timber</li>
             </ul>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Professional installation by specialized roofing teams</li>
+              <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> High-end sheeting or tile installation</li>
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Final structural audit and waterproofing verification</li>
             </ul>
           </div>
@@ -45,20 +45,12 @@ const ServiceDesign: React.FC = () => {
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">Common Problems <span className="text-[#ff6b35]">This Service Solves</span></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Architectural Mismatch</h4>
-              <p className="text-gray-500 text-sm">We prevent the common issue of roofs looking out of place by designing structures that match modern home styles.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Architectural Mismatch</h4>
+              <p className="text-gray-500 text-sm">We prevent roofs from looking out of place by designing structures that match modern home styles.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Structural Weakness</h4>
-              <p className="text-gray-500 text-sm">Our designs solve issues related to sagging or unstable frames through precise engineering calculations.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Poor Water Runoff</h4>
-              <p className="text-gray-500 text-sm">We solve the problem of water pooling by ensuring perfect angles for drainage during installation.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Thermal Inefficiency</h4>
-              <p className="text-gray-500 text-sm">Our installations include airflow considerations to prevent excessive heat buildup in your attic.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Structural Weakness</h4>
+              <p className="text-gray-500 text-sm">Our designs solve issues related to sagging or unstable frames through precise calculations.</p>
             </div>
           </div>
         </div>
@@ -71,29 +63,29 @@ const ServiceDesign: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Assessment</h4>
-              <p className="text-gray-500 text-[11px]">We review your plans and site requirements.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Review</h4>
+              <p className="text-gray-500 text-[11px]">Site survey and plan review.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Design</h4>
-              <p className="text-gray-500 text-[11px]">Creating the structural blueprint for your roof.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Frame</h4>
+              <p className="text-gray-500 text-[11px]">Setting the structural trusses.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Execution</h4>
-              <p className="text-gray-500 text-[11px]">Our team installs the structure with precision.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Shield</h4>
+              <p className="text-gray-500 text-[11px]">Installing primary materials.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Handover</h4>
-              <p className="text-gray-500 text-[11px]">Final quality check and clean site delivery.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Finish</h4>
+              <p className="text-gray-500 text-[11px]">Final sealing and cleanup.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5. Why Choose Aki Construction (IDENTICAL) */}
+      {/* 5. Why Choose Aki Construction */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10">Why Choose <span className="text-[#ff6b35]">Aki Construction</span></h2>
@@ -130,7 +122,7 @@ const ServiceDesign: React.FC = () => {
         </div>
       </section>
 
-      {/* 6. Call to Action (IDENTICAL) */}
+      {/* 6. Call to Action */}
       <section className="py-24 text-center bg-[#1a1c23]">
         <div className="container mx-auto px-4">
           <h2 className="text-white font-heading font-extrabold text-3xl uppercase mb-6">Need professional roofing services you can trust?</h2>

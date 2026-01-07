@@ -7,15 +7,15 @@ const ServiceMaintenance: React.FC = () => {
       {/* 1. Service Overview */}
       <section className="bg-[#1a1c23] py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8">
+          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8 leading-none">
             Maintenance <span className="text-[#ff6b35]">Check</span>
           </h1>
           <div className="max-w-3xl mx-auto space-y-6 text-gray-400 text-lg leading-relaxed">
             <p>
-              The Integrity Maintenance Check is a preventative service that involves a comprehensive structural audit of your entire roofing system. This service is for homeowners who want to ensure their roof remains in peak condition and catch minor wear and tear before it becomes a major expense.
+              Our Integrity Maintenance Check is a preventative service involving a comprehensive structural audit of your roofing system. Catch minor wear before it becomes a disaster.
             </p>
             <p>
-              It is needed at least once a year, preferably before the heavy rain season begins in Malamulele. Regular checks ensure that fasteners are tight, sealants are intact, and your drainage systems are clear, preventing silent issues from compromising the structural security of your home.
+              It is needed at least once a year, preferably before the heavy rain season. Regular checks ensure your home is storm-ready, fasteners are tight, and your structural investment is fully protected.
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ const ServiceMaintenance: React.FC = () => {
       <section className="py-20 border-b border-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">What This <span className="text-[#ff6b35]">Service Includes</span></h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> 50-point structural integrity inspection</li>
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Cleaning and clearing of gutters and valleys</li>
@@ -45,20 +45,12 @@ const ServiceMaintenance: React.FC = () => {
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">Common Problems <span className="text-[#ff6b35]">This Service Solves</span></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Blocked Drainage</h4>
-              <p className="text-gray-500 text-sm">We clear the leaves and debris that cause gutters to overflow and flood your foundation.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Blocked Gutters</h4>
+              <p className="text-gray-500 text-sm">We solve overflow issues that cause foundation dampness and wall damage.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Loose Fasteners</h4>
-              <p className="text-gray-500 text-sm">We solve the problem of roof sheets rattling or lifting during high winds due to loose screws.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Silent Deterioration</h4>
-              <p className="text-gray-500 text-sm">We catch the small cracks in sealants that you can't see but eventually lead to major leaks.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Rust Spots</h4>
-              <p className="text-gray-500 text-sm">By catching early oxidation, we prevent widespread corrosion that requires full replacement.</p>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Loose Screws</h4>
+              <p className="text-gray-500 text-sm">We solve the rattle and sheet-lifting problems caused by old fasteners.</p>
             </div>
           </div>
         </div>
@@ -71,29 +63,29 @@ const ServiceMaintenance: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Walkthrough</h4>
-              <p className="text-gray-500 text-[11px]">Visual and structural assessment of the roof.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Audit</h4>
+              <p className="text-gray-500 text-[11px]">Comprehensive 50-point inspection.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
               <h4 className="font-bold uppercase text-xs mb-2">Cleanup</h4>
-              <p className="text-gray-500 text-[11px]">Clearing of all valleys, gutters, and drains.</p>
+              <p className="text-gray-500 text-[11px]">Clearing all debris and blockages.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Tightening</h4>
-              <p className="text-gray-500 text-[11px]">Securing all fasteners and structural caps.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Refit</h4>
+              <p className="text-gray-500 text-[11px]">Securing caps and fasteners.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
-              <h4 className="font-bold uppercase text-xs mb-2">Reporting</h4>
-              <p className="text-gray-500 text-[11px]">Providing a full health report for your records.</p>
+              <h4 className="font-bold uppercase text-xs mb-2">Report</h4>
+              <p className="text-gray-500 text-[11px]">Full health summary and feedback.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5. Why Choose Aki Construction (IDENTICAL) */}
+      {/* 5. Why Choose Aki Construction */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10">Why Choose <span className="text-[#ff6b35]">Aki Construction</span></h2>
@@ -130,7 +122,7 @@ const ServiceMaintenance: React.FC = () => {
         </div>
       </section>
 
-      {/* 6. Call to Action (IDENTICAL) */}
+      {/* 6. Call to Action */}
       <section className="py-24 text-center bg-[#1a1c23]">
         <div className="container mx-auto px-4">
           <h2 className="text-white font-heading font-extrabold text-3xl uppercase mb-6">Need professional roofing services you can trust?</h2>

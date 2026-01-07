@@ -7,15 +7,15 @@ const ServiceLeakage: React.FC = () => {
       {/* 1. Service Overview */}
       <section className="bg-[#1a1c23] py-20 text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8">
-            Leakage <span className="text-[#ff6b35]">Repair</span>
+          <h1 className="text-white font-heading font-extrabold text-4xl md:text-6xl uppercase tracking-tighter mb-8 leading-none">
+            Roof Leak <span className="text-[#ff6b35]">Repair</span>
           </h1>
           <div className="max-w-3xl mx-auto space-y-6 text-gray-400 text-lg leading-relaxed">
             <p>
-              Roof leakage repair is a specialized service focused on identifying and permanently sealing points of water ingress. We use advanced diagnostic techniques and industrial-grade waterproofing materials to secure your property. This service is for homeowners who have noticed moisture, damp spots, or active dripping during rain.
+              Roof leak repair is a specialized service focused on identifying and permanently sealing points of water ingress. We use advanced diagnostic techniques and industrial-grade waterproofing materials to secure your property.
             </p>
             <p>
-              It is needed immediately when a leak is detected to prevent catastrophic internal damage. In Malamulele's storm season, a small leak can quickly lead to timber rot, electrical hazards, and mold growth if not addressed by a professional team using the correct materials.
+              This service is for homeowners who have noticed moisture, damp spots, or active dripping. It is needed immediately when a leak is detected to prevent catastrophic internal damage and expensive structural repairs.
             </p>
           </div>
         </div>
@@ -25,7 +25,7 @@ const ServiceLeakage: React.FC = () => {
       <section className="py-20 border-b border-gray-100">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">What This <span className="text-[#ff6b35]">Service Includes</span></h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Full diagnostic check of the roof surface</li>
               <li className="flex items-start gap-3 text-gray-600 text-sm"><i className="fa-solid fa-check text-[#ff6b35] mt-1"></i> Replacement of damaged tiles or roof sheets</li>
@@ -45,20 +45,12 @@ const ServiceLeakage: React.FC = () => {
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10 text-center">Common Problems <span className="text-[#ff6b35]">This Service Solves</span></h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Ceiling Stains</h4>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Ceiling Stains</h4>
               <p className="text-gray-500 text-sm">We stop the yellow and dark spots caused by water seeping through your ceiling boards.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Structural Rot</h4>
+              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-2">Structural Rot</h4>
               <p className="text-gray-500 text-sm">We prevent your timber trusses from rotting due to constant moisture exposure.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Electrical Risks</h4>
-              <p className="text-gray-500 text-sm">We solve the danger of water entering light fixtures and causing electrical shorts.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-              <h4 className="font-bold text-[#1a1c23] uppercase text-sm mb-3">Mold Growth</h4>
-              <p className="text-gray-500 text-sm">By stopping the leak, we eliminate the damp environment where mold and bacteria thrive.</p>
             </div>
           </div>
         </div>
@@ -72,28 +64,28 @@ const ServiceLeakage: React.FC = () => {
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">1</div>
               <h4 className="font-bold uppercase text-xs mb-2">Inspection</h4>
-              <p className="text-gray-500 text-[11px]">We trace the leak back to its exact source.</p>
+              <p className="text-gray-500 text-[11px]">Tracing the exact water entry point.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">2</div>
               <h4 className="font-bold uppercase text-xs mb-2">Preparation</h4>
-              <p className="text-gray-500 text-[11px]">Cleaning the area and removing failed sealants.</p>
+              <p className="text-gray-500 text-[11px]">Cleaning surface area and joints.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">3</div>
               <h4 className="font-bold uppercase text-xs mb-2">Sealing</h4>
-              <p className="text-gray-500 text-[11px]">Applying professional-grade waterproof solutions.</p>
+              <p className="text-gray-500 text-[11px]">Applying professional sealants.</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 bg-[#1a1c23] text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold">4</div>
               <h4 className="font-bold uppercase text-xs mb-2">Testing</h4>
-              <p className="text-gray-500 text-[11px]">Ensuring the repair is 100% water-tight.</p>
+              <p className="text-gray-500 text-[11px]">Ensuring a 100% water-tight fix.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5. Why Choose Aki Construction (IDENTICAL) */}
+      {/* 5. Why Choose Aki Construction */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="font-heading font-black text-[#1a1c23] text-2xl uppercase mb-10">Why Choose <span className="text-[#ff6b35]">Aki Construction</span></h2>
@@ -130,7 +122,7 @@ const ServiceLeakage: React.FC = () => {
         </div>
       </section>
 
-      {/* 6. Call to Action (IDENTICAL) */}
+      {/* 6. Call to Action */}
       <section className="py-24 text-center bg-[#1a1c23]">
         <div className="container mx-auto px-4">
           <h2 className="text-white font-heading font-extrabold text-3xl uppercase mb-6">Need professional roofing services you can trust?</h2>
