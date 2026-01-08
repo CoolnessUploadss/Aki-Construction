@@ -39,24 +39,34 @@ const Home: React.FC = () => {
 
   const services = [
     {
+      title: "Roof Construction",
+      desc: "Complete structural building from framing to sheeting using high-end SABS materials.",
+      icon: "fa-house-chimney",
+      link: "/services/construction"
+    },
+    {
       title: "Design & Installation",
       desc: "Modern and classic roofing designs tailored to your specific home architecture.",
-      icon: "fa-pencil-ruler"
+      icon: "fa-pencil-ruler",
+      link: "/services/design"
     },
     {
       title: "Louver Installation",
       desc: "Improve airflow and ventilation with custom roof louvers and structural venting.",
-      icon: "fa-wind"
+      icon: "fa-wind",
+      link: "/services/louvers"
     },
     {
       title: "Roof Leak Repairs",
       desc: "Fast and effective repairs for leaks, joints, and damaged roof sheets.",
-      icon: "fa-faucet-drip"
+      icon: "fa-faucet-drip",
+      link: "/services/leakage"
     },
     {
       title: "Roof Tile Painting",
       desc: "Restore and protect your roof tiles with high-durability aesthetic coatings.",
-      icon: "fa-fill-drip"
+      icon: "fa-fill-drip",
+      link: "/services/painting"
     }
   ];
 
@@ -146,9 +156,9 @@ const Home: React.FC = () => {
             <div className="w-20 h-1 bg-[#ff6b35] mx-auto mt-4 mb-6"></div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {services.map((service, index) => (
-              <div key={index} className="group bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-2xl hover:bg-white hover:-translate-y-2 transition-all duration-300 flex flex-col items-center text-center">
+              <Link to={service.link} key={index} className="group bg-gray-50 p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-2xl hover:bg-white hover:-translate-y-2 transition-all duration-300 flex flex-col items-center text-center">
                 <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center text-[#ff6b35] text-4xl mb-8 shadow-md group-hover:bg-[#ff6b35] group-hover:text-white transition-colors duration-300">
                   <i className={`fa-solid ${service.icon}`}></i>
                 </div>
@@ -161,7 +171,7 @@ const Home: React.FC = () => {
                 <div className="mt-8 pt-6 border-t border-gray-200 w-full">
                   <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#ff6b35]">Professional Result</span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

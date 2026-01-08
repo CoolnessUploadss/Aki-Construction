@@ -35,6 +35,12 @@ const ServiceMain: React.FC = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <ServiceCard 
+              icon="fa-house-chimney" 
+              title="Roof Construction" 
+              link="/services/construction"
+              desc="Comprehensive structural roof building using high-end timber and premium sheeting materials."
+            />
+            <ServiceCard 
               icon="fa-pencil-ruler" 
               title="Design & Installation" 
               link="/services/design"
@@ -64,13 +70,6 @@ const ServiceMain: React.FC = () => {
               link="/services/maintenance"
               desc="Preventative 50-point inspections to ensure your roof is ready for storm season."
             />
-            <div className="bg-[#ff6b35] p-8 rounded-2xl flex flex-col justify-center text-white">
-              <h3 className="font-heading font-black text-2xl uppercase mb-4 leading-tight">Emergency Assistance?</h3>
-              <p className="text-sm opacity-90 mb-6">If your roof has suffered storm damage, call our priority line immediately.</p>
-              <a href="tel:0815692291" className="bg-white text-[#ff6b35] px-6 py-3 rounded-lg font-heading font-bold uppercase text-xs tracking-widest text-center hover:bg-[#1a1c23] hover:text-white transition-all">
-                Call Priority Line
-              </a>
-            </div>
           </div>
         </div>
       </section>
@@ -138,7 +137,7 @@ const ServiceMain: React.FC = () => {
         </div>
       </section>
 
-      {/* 6. CTA Form/Section */}
+      {/* 6. CTA Section */}
       <section className="py-24 bg-[#1a1c23] text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-white font-heading font-extrabold text-3xl md:text-5xl uppercase mb-8">SECURE YOUR HOME <br /><span className="text-[#ff6b35]">WITH THE EXPERTS</span></h2>

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -11,6 +11,7 @@ import ServiceLeakage from './pages/services/ServiceLeakage';
 import ServiceLouver from './pages/services/ServiceLouver';
 import ServicePainting from './pages/services/ServicePainting';
 import ServiceMaintenance from './pages/services/ServiceMaintenance';
+import ServiceConstruction from './pages/services/ServiceConstruction';
 
 const AkiLogo = ({ className = "w-12 h-12" }: { className?: string }) => (
   <div className={`relative flex items-center justify-center ${className}`}>
@@ -57,6 +58,7 @@ const Header = () => {
               Services <i className={`fa-solid fa-chevron-down text-[8px] transition-transform ${isServicesOpen ? 'rotate-180' : ''}`}></i>
             </Link>
             <div className={`absolute top-full left-0 w-64 bg-[#1a1c23] border border-gray-800 shadow-2xl py-4 transition-all duration-200 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
+              <Link to="/services/construction" className="block px-6 py-3 hover:bg-[#ff6b35] hover:text-white transition-colors">Roof Construction</Link>
               <Link to="/services/design" className="block px-6 py-3 hover:bg-[#ff6b35] hover:text-white transition-colors">Design & Installation</Link>
               <Link to="/services/leakage" className="block px-6 py-3 hover:bg-[#ff6b35] hover:text-white transition-colors">Leakage Repair</Link>
               <Link to="/services/louvers" className="block px-6 py-3 hover:bg-[#ff6b35] hover:text-white transition-colors">Louver Installation</Link>
@@ -85,7 +87,8 @@ const Header = () => {
           <Link to="/about">About Us</Link>
           <div className="flex flex-col items-center gap-4">
             <Link to="/services" className="text-[#ff6b35]">Services</Link>
-            <div className="flex flex-col items-center gap-3 text-sm opacity-80 border-l border-gray-700 pl-4">
+            <div className="flex flex-col items-center gap-3 text-sm opacity-80 border-l border-gray-700 pl-4 text-center">
+              <Link to="/services/construction">Roof Construction</Link>
               <Link to="/services/design">Design & Installation</Link>
               <Link to="/services/leakage">Leakage Repair</Link>
               <Link to="/services/louvers">Louver Installation</Link>
@@ -129,6 +132,7 @@ const Footer = () => (
       <div>
         <h3 className="text-white font-heading font-bold mb-6 text-sm uppercase tracking-wider underline decoration-[#ff6b35] decoration-2 underline-offset-8">Services</h3>
         <ul className="space-y-3 text-sm">
+          <li><Link to="/services/construction" className="hover:text-[#ff6b35]">Roof Construction</Link></li>
           <li><Link to="/services/design" className="hover:text-[#ff6b35]">Design & Installation</Link></li>
           <li><Link to="/services/leakage" className="hover:text-[#ff6b35]">Leakage Repair</Link></li>
           <li><Link to="/services/louvers" className="hover:text-[#ff6b35]">Louvers</Link></li>
@@ -159,6 +163,7 @@ const App: React.FC = () => (
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<ServiceMain />} />
+          <Route path="/services/construction" element={<ServiceConstruction />} />
           <Route path="/services/design" element={<ServiceDesign />} />
           <Route path="/services/leakage" element={<ServiceLeakage />} />
           <Route path="/services/louvers" element={<ServiceLouver />} />
