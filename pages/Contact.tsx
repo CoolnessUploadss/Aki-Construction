@@ -175,6 +175,7 @@ const Contact: React.FC = () => {
                             className="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-[#ff6b35] appearance-none cursor-pointer"
                           >
                             <option value="">Select a Service</option>
+                            <option value="Roofing Construction">Roofing Construction</option>
                             <option value="Roofing Design & Installation">Roofing Design & Installation</option>
                             <option value="Roof Leak Repairs">Roof Leak Repairs</option>
                             <option value="Louver Installation">Louver Installation</option>
