@@ -12,17 +12,22 @@ const Projects: React.FC = () => {
     'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/ea3601224dff078189a166c487fa43669f50dad8/WhatsApp%20Image%202026-01-05%20at%2021.07.31.jpeg',
 
     // ✅ NEW WhatsApp images (RAW)
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.47.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.48.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.49.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.53.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.55.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.56.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.16.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.17.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.18.jpeg',
-    'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/main/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.19.jpeg'
-  ];
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.47.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.48%20(1).jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.48.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.49.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.53%20(1).jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.53.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.55%20(1).jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.55.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.20.56.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.16%20(1).jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.16.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.17.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.18.jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.19%20(1).jpeg',
+  'https://raw.githubusercontent.com/CoolnessUploadss/surprise-arts-gallery/c4336f0d9d5eaf3bb569267a195dbff19307f1f3/Gallery/WhatsApp%20Image%202026-01-07%20at%2021.21.19.jpeg'
+];
 
   return (
     <div className="bg-white min-h-screen">
