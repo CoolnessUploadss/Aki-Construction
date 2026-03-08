@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -35,8 +35,8 @@ const Header = () => {
   }, [location]);
 
   return (
-    <header className="fixed w-full z-50 bg-[#1a1c23] text-white shadow-lg border-b border-gray-800">
-      <div className="container mx-auto px-4 py-2 flex justify-between items-center relative z-50">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#1a1c23] text-white shadow-lg border-b border-gray-800">
+      <div className="container mx-auto px-4 py-3 flex justify-between items-center relative z-50">
         <Link to="/" className="flex items-center gap-3">
           <AkiLogo className="w-11 h-11" />
           <div className="flex flex-col leading-none">
@@ -158,7 +158,7 @@ const App: React.FC = () => (
   <Router>
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow pt-[60px]">
+      <main className="flex-grow pt-20">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
